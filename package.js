@@ -42,7 +42,8 @@ Package.on_use(function (api, where) {
 
   /* Template */
   api.add_files([
-    'lib/DataTables.html'
+    'lib/DataTables.html',
+    'lib/datatables_patch.coffee'
   ], [ 'client' ]);
 
   /* Component */
